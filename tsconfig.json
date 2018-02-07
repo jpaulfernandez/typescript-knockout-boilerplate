@@ -1,0 +1,10 @@
+{
+    "files": [
+        "source/assets/js/app.ts",
+        "source/assets/js/user.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "target": "es5"
+    }
+}
