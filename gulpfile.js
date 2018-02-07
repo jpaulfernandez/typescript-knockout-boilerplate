@@ -10,8 +10,8 @@ var ts = require('gulp-typescript');
 var tsify = require('tsify');
 var browserify = require('browserify');
 var uglify = require('gulp-uglify');
-var vsource = require('vinyl-source-stream')
-;var sourcemaps = require('gulp-sourcemaps');
+var vsource = require('vinyl-source-stream');
+var sourcemaps = require('gulp-sourcemaps');
 var buffer = require('vinyl-buffer');
 
 
@@ -220,7 +220,7 @@ gulp.task('start', ['build', 'watch']);
 // Help Task
 gulp.task('help', function () {
   console.log('');
-  console.log('===== Help for SymphFrontendBoilerplate =====');
+  console.log('===== Help for Typescript-Knockout-boilerplate =====');
   console.log('');
   console.log('Usage: gulp [command]');
   console.log('The commands for the task runner are the following.');
