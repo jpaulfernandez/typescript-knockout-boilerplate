@@ -6530,16 +6530,12 @@ th {
   padding: 10px;
 }
 
-.nav > ul > li:hover {
-  background-color: #111111;
+.nav > ul > li:hover, .nav > ul > li a:hover {
+  color: rgba(33, 33, 33, 0.5);
 }
 
 .nav > ul > li > a {
   text-decoration: none;
-}
-
-.nav > ul > li > a:hover {
-  color: #FFFFFF;
 }
 
 html {

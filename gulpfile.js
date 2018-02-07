@@ -93,9 +93,9 @@ gulp.task('browserify', function(){
                 cache: {},
                 packageCache: {}
             })
-            .pipe($.plumber())
             .plugin(tsify)
             .bundle()
+            .pipe($.plumber())
             .pipe(vsource('bundle.js'))
             .pipe(gulp.dest(js.out));
   }
