@@ -1,6 +1,6 @@
 README 
 
-To get started,
+To get started,q
 
 1. Drag the project folder in iTerm
 2. Type in 'npm install'
